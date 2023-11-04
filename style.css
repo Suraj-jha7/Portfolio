@@ -9,6 +9,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
+ 
+  
 }
 
 html {
@@ -17,6 +19,10 @@ html {
 
 p {
   color: rgb(85, 85, 85);
+}
+
+.div-section:nth-child(2n){
+  background-color: rgb(241, 239, 242);
 }
 
 /* TRANSITION */
@@ -37,6 +43,8 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  background-color: rgb(241, 239, 242);
+  
 }
 
 .nav-links {
@@ -122,6 +130,7 @@ a:hover {
   max-height: 300px;
 }
 
+
 .hamburger-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
 }
@@ -167,6 +176,8 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+
+
 }
 
 .section__pic-container {
@@ -265,6 +276,7 @@ section {
 
 #about {
   position: relative;
+  
 }
 
 .about-containers {
@@ -430,3 +442,13 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+/* ANIMATION____________________ */
